@@ -1,0 +1,47 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOJA - QUALQUE_COISA</title>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1> FlexStreamTV</h1>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'contact:index' %}">Início</a></li>
+
+                    <li><a href="{% url 'contact:lançamento' %}">Lançamentos</a></li>
+
+                    <li><a href="{% url 'contact:programaçaoDeHoje' %}">Programação de Hoje</a></li>
+
+                    <li><a href="{% url 'contact:series' %}">Series</a></li>
+
+                    <li><a href="{% url 'contact:filmes' %}">Filmes</a></li>
+
+                    <li><a href="{% url 'contact:contato' %}">Contato</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    {% block index %}{% endblock index %}
+    {% block content %}{% endblock content %}
+    {% block programa %}{% endblock programa %}
+    {% block series %}{% endblock series %}
+    {% block filmes %}{% endblock filmes %}
+    {% block contato %}{% endblock contato %}
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024  FlexStreamTV. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

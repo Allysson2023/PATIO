@@ -1,0 +1,498 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(192, 208, 216);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #145de6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Seção de destaque */
+.hero {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d47cc07-2711-4b68-bc13-d0d67bd1c721/dg41lji-b85fcf1b-2095-4626-9668-b02b9ae988e9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkNDdjYzA3LTI3MTEtNGI2OC1iYzEzLWQwZDY3YmQxYzcyMVwvZGc0MWxqaS1iODVmY2YxYi0yMDk1LTQ2MjYtOTY2OC1iMDJiOWFlOTg4ZTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QxC0ccGGRDfEMkgiA6K7O-2MBVkcg0lRbk-N8UWY640');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2f00ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #cc0909;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Seção de conteúdo */
+.content {
+    padding: 50px 0;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.movie p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Seção de séries em destaque */
+.featured-series {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.series-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.series {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.series img {
+    max-width: 100%;
+
+    height: auto;
+    border-radius: 5px;
+}
+
+.series h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.series p {
+    font-size: 14px;
+    color: #666;
+}
+.popular-series {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.popular-series h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.series-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro h2, .about h2, .services h2, .devices h2, .subscription h2, .legality h2, .contact h2, .social h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.intro p, .about p, .services ul, .devices ul, .subscription p, .legality p, .contact p, .social p {
+    font-size: 16px;
+    color: #666;
+}
+
+.services ul, .devices ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact ul li:before {
+    content: "•";
+    margin-right: 5px;
+    color: #333;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.movie-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.movie-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.movie-info {
+    margin-bottom: 40px;
+}
+
+.movie-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.movie-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.serie-info {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.serie-img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.serie-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.serie-details {
+    flex: 1;
+}
+
+.serie-details h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.serie-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.serie-info {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.serie-info img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.serie-info .serie-details {
+    flex: 1;
+}
+
+.serie-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.serie-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+
+
+.catalogo {
+    padding: 20px;
+  }
+  
+  .filme {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .filme img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  .formulario {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+
+
+
+
+
+
+  .container12 {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+.descricao {
+    background-color: #b5dbf1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.descricao h2 {
+    color: #333;
+}
+
+.descricao p {
+    color: #666;
+}
+
+.descricao ul {
+    color: #666;
+    padding-left: 20px;
+}
+
+.descricao li {
+    margin-bottom: 10px;
+}
+
+.descricao li::before {
+    content: "\2022"; /* Adiciona um ponto de bullet */
+    color: #007bff; /* Cor do bullet */
+    font-weight: bold; /* Deixa o bullet em negrito */
+    display: inline-block; /* Para posicionamento correto */
+    width: 1em; /* Ajusta o espaço entre o bullet e o texto */
+    margin-left: -1em; /* Ajusta o espaço entre o bullet e o início do texto */
+}
+
+.descricao p:last-child {
+    margin-top: 20px; /* Espaçamento superior extra para o último parágrafo */
+}
+
+
+
+
+
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}

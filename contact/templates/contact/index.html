@@ -1,0 +1,207 @@
+{% extends "global/base.html" %}
+
+{% block index %}
+<section class="hero">
+    <div class="container">
+        <h2>Bem-vindo ao  FlexStreamTV</h2>
+        <p>O melhor lugar para assistir seus filmes e séries favoritos.</p>
+        
+        <a href="https://wa.me/+5585997941038/?text=ola, estou enteressador!"class="btn">Enviar mensagem!</a>
+
+        
+
+    </div>
+</section>
+
+<section class="intro">
+    <div class="container">
+        <h2>Introdução:</h2>
+        <p>Bem-vindo ao  FlexStreamTV, sua principal fonte de entretenimento online. Explore uma vasta seleção de conteúdo sob demanda, transmissões ao vivo e recursos interativos, tudo em um único lugar.</p>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2>Sobre o  FlexStreamTV:</h2>
+        <p>Descubra o que é  FlexStreamTV, como funciona e por que é uma opção de entretenimento cada vez mais popular. Saiba mais sobre as vantagens do IPTV em relação aos métodos tradicionais de televisão.</p>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <h2>Serviços:</h2>
+        <ul>
+            <li>Conteúdo sob demanda: Uma biblioteca extensa de filmes, programas de TV, documentários e muito mais, disponível para assistir quando e onde quiser.</li>
+            <li>Transmissões ao vivo: Acompanhe seus canais de TV favoritos, eventos esportivos, noticiários e muito mais em tempo real.</li>
+            
+        </ul>
+    </div>
+</section>
+
+<section class="devices">
+    <div class="container">
+        <h2>Dispositivos Compatíveis:</h2>
+        <ul>
+            <li>Computadores</li>
+            <li>Smartphones e tablets</li>
+            <li>Smart TVs</li>
+            <li>Decodificadores dedicados</li>
+        </ul>
+    </div>
+</section>
+
+<section class="subscription">
+    <div class="container">
+        <h2>Assinatura:</h2>
+        <p>Saiba como assinar o  FlexStreamTV e desfrutar de todo o conteúdo exclusivo que oferecemos. Explore nossos planos e preços flexíveis, adaptados às suas necessidades de entretenimento.</p>
+    </div>
+</section>
+
+<section class="legality">
+    <div class="container">
+        <h2>Legalidade:</h2>
+        <p>Entenda a importância da legalidade ao utilizar serviços de IPTV e saiba que o  FlexStreamTV opera de acordo com todas as leis de direitos autorais e regulamentações locais.</p>
+    </div>
+</section>
+
+
+
+                                <!--parte dos lancametos do filmes-->
+
+<section class="content">
+    <div class="container">
+        <h2>Em Maio Lançamentos</h2>
+        <div class="movie-list">
+            <div class="movie">
+                <img src="https://www.gamereactor.pt/media/21/_3962113.jpg" alt="Filme 1">
+                <h3>Guardiões da Galáxia Vol. 3</h3>
+                <p>Guardiões da Galáxia Vol. 3 chegou aos cinemas com a missão de encerrar a jornada de uma das equipes mais queridas do universo Marvel nos cinemas. Porém, apesar de focar na despedida, a produção segue a tradição e deixa pistas para o futuro do MCU.</p>
+                
+            </div>
+            <div class="movie">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnPKGYYMhSA9mdGmHQnrd-Gi4sWh5aIvbaB22crs_W39MEQ4B48hY4P3dZRTR7Fpy7-gk&usqp=CAU" alt="Filme 2">
+                <h2>Planeta dos Macacos: O Reinado</h2>
+                <p>O reinado avança a franquia em vários anos, mostrando décadas após o reinado de César, com os macacos vivendo em harmonia e como a espécie dominante, enquanto humanos se escondem nas sombras tentando sobreviver. Quando um jovem macaco começa a descobrir fatos que vão contra tudo aquilo que aprendeu sobre seu passado, ele pode se tornar decisivo na forma como humanos e macacos vão avançar para seus futuros.</p>
+        <p><strong>Planeta dos Macacos: O Reinado</strong> tem estreia prevista para o dia 23 de maio.</p>
+        
+            </div>
+            <!-- Adicione mais filmes conforme necessário -->
+        </div>
+    </div>
+</section>
+
+<section class="go-to-page">
+    <div class="container">
+        <h2>Saiba mais Lançamento:</h2>
+        <a href="{% url 'contact:lançamento' %}" class="button">Lançamento</a>
+    </div>
+</section>
+
+
+
+                                        <!--aqui esta as series-->
+
+<section class="serie-info">
+    <div class="container">
+        <h2>Series</h2>
+        <img src="https://www.bergamonews.it/photogallery_new/images/2014/01/breaking-bad-tutti-gli-elementi-del-capolavoro-465250.large.jpg" alt="Breaking Bad">
+        <div class="serie-details">
+            <h2>Breaking Bad</h2>
+            <p>Um professor de química do ensino médio se transforma em um fabricante de metanfetamina para garantir o futuro financeiro de sua família após ser diagnosticado com câncer terminal.</p>
+            <h2>Personagens Principais:</h2>
+            <p>Walter White (interpretado por Bryan Cranston): O protagonista da série, um homem comum que se transforma em um poderoso traficante de drogas conhecido como "Heisenberg".</p>
+            <p>Jesse Pinkman (interpretado por Aaron Paul): Um ex-aluno de Walter e seu parceiro no negócio de produção de metanfetamina.</p>
+            <p>Skyler White (interpretada por Anna Gunn): Esposa de Walter, que inicialmente não sabe de suas atividades criminosas.</p>
+            <p>Hank Schrader (interpretado por Dean Norris): Cunhado de Walter e agente da DEA (Drug Enforcement Administration), que fica obcecado em capturar Heisenberg sem saber que é Walter.</p>
+            <p>Saul Goodman (interpretado por Bob Odenkirk): Um advogado criminal astuto e amoral que presta serviços legais para Walter e Jesse.</p>
+            
+            <p>A série foi aclamada pela crítica e recebeu inúmeros prêmios, incluindo 16 Prêmios Emmy. O desempenho de Bryan Cranston como Walter White é particularmente elogiado, assim como a direção de Vince Gilligan e a escrita inteligente.</p>
+            <p><strong>Breaking Bad</strong> está disponível para streaming na Netflix.</p>
+        </div>
+    </div>
+    
+</section>
+
+<section class="serie-info">
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Game_of_Thrones_RPG.jpg" alt="Game of Thrones">
+        <div class="serie-details">
+            <h2>Game of Thrones</h2>
+            <p>Baseada na série de livros "As Crônicas de Gelo e Fogo" de George R.R. Martin, esta série épica de fantasia acompanha as lutas de poder entre as famílias nobres de Westeros pelo Trono de Ferro.</p>
+            <h2>Personagens Principais:</h2>
+            <p>Eddard "Ned" Stark (interpretado por Sean Bean): Lorde de Winterfell e patriarca da Casa Stark.</p>
+            <p>Jon Snow (interpretado por Kit Harington): Bastardo de Ned Stark, que se junta à Patrulha da Noite, uma organização encarregada de proteger o reino de ameaças além da Muralha.</p>
+            <p>Daenerys Targaryen (interpretada por Emilia Clarke): Exilada descendente da dinastia Targaryen, que busca retomar o trono de seu pai com a ajuda de seus dragões.</p>
+            <p>Cersei Lannister (interpretada por Lena Headey): Rainha regente dos Sete Reinos, conhecida por sua astúcia e crueldade.</p>
+            <p>Tyrion Lannister (interpretado por Peter Dinklage): O "meio homem" da Casa Lannister, conhecido por sua inteligência e sagacidade.</p>
+
+            <p><strong>Game of Thrones</strong> está disponível para streaming na HBO Max.</p>
+            <h2>Saiba mais Series:</h2>
+        <a href="{% url 'contact:series' %}" class="button">Series</a>
+        </div>
+    </div>
+</section>
+
+                                    <!--AQUI AONDE FICA OS FILMES-->
+
+
+<section class="serie-info">
+    <div class="container">
+        <h2>Filmes</h2>
+        <img src="https://live.staticflickr.com/1976/31685750908_2d9ca42a73_n.jpg" alt="Breaking Bad">
+        <div class="serie-details">
+            <h2>Duro de Matar</h2>
+            <h2>Personagens Principais:</h2>
+            <p>John McClane (interpretado por Bruce Willis): O protagonista da série, McClane é um detetive da polícia de Nova York conhecido por sua atitude irreverente, coragem e habilidades de combate improvisadas. Ele é frequentemente colocado em situações de vida ou morte, onde tem que lutar contra terroristas e criminosos para salvar o dia.</p>
+            <p>Holly Gennero/McClane (interpretada por Bonnie Bedelia): A esposa de John McClane, que aparece nos primeiros dois filmes da série. Holly é uma executiva de sucesso que se torna um alvo para os vilões devido ao seu relacionamento com McClane.</p>
+            <p>Hans Gruber (interpretado por Alan Rickman): O antagonista do primeiro filme, "Duro de Matar". Gruber é um terrorista alemão inteligente e calculista que lidera o grupo que toma o prédio de escritórios em Los Angeles durante a véspera de Natal. Ele é conhecido por sua sofisticação e frieza.</p>
+            <p>Simon Gruber (interpretado por Jeremy Irons): O principal antagonista de "Duro de Matar - A Vingança". Ele é o irmão de Hans Gruber e planeja uma elaborada vingança contra John McClane, colocando-o em uma série de jogos de adivinhação perigosos em Nova York.</p>
+            <p>Al Powell (interpretado por Reginald VelJohnson): Um sargento da polícia de Los Angeles que se torna um aliado crucial de John McClane durante os eventos do primeiro filme. Ele fornece apoio e assistência a McClane enquanto ele luta contra os terroristas no prédio de escritórios.</p>
+
+            <p>Um clássico dos anos 80, estrelado por Bruce Willis como o policial John McClane, que luta contra terroristas em um prédio de escritórios.</p>
+        </div>
+    </div>
+    
+</section>
+
+<section class="serie-info">
+    <div class="container">
+        <img src="https://img.freepik.com/fotos-premium/poster-do-filme-mad-max-estrada-da-furia_7023-13054.jpg" alt="Game of Thrones">
+        <div class="serie-details">
+            <h2>Mad Max: Estrada da Fúria</h2>
+            <p> Dirigido por George Miller, este filme é uma montanha-russa de ação pós-apocalíptica estrelada por Tom Hardy e Charlize Theron.</p>
+            <h2>Personagens Principais:</h2>
+            <p>Max Rockatansky (interpretado por Tom Hardy): Um ex-policial atormentado por tragédias do passado, agora um sobrevivente solitário em um mundo pós-apocalíptico. Ele se junta a Furiosa na luta contra Immortan Joe.</p>
+            <p>Imperatriz Furiosa (interpretada por Charlize Theron): Uma motorista de caminhão destemida e habilidosa que busca redenção e liberdade. Ela lidera a fuga das esposas de Joe e se torna a aliada de Max.</p>
+            <p>Immortan Joe (interpretado por Hugh Keays-Byrne): O antagonista principal do filme, um tirano brutal que controla uma fortaleza e seus recursos escassos. Ele persegue Furiosa e Max para recuperar suas prisioneiras.</p>
+
+
+            <h2>Saiba mais filmes:</h2>
+        <a href="{% url 'contact:filmes' %}" class="button">Filmes</a>
+        </div>
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+
+<!-- AQUI E O FORMULARIO AONDE AS PESSOAS VAO BOTA O FILMES OU SERIES -->
+<section class="hero">
+    <div class="container">
+        <h2>chama no whatsApp</h2>
+        <p>O melhor lugar para assistir seus filmes e séries favoritos.</p>
+        
+        <a href="https://wa.me/+5585997941038/?text=ola, estou enteressador!"class="btn">Enviar mensagem!</a>
+
+        
+
+    </div>
+</section>
+
+{% endblock index %}
